@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationery Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav ul {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav ul li {
+            margin: 0;
+            padding: 10px 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .buy-now-button {
+            background-color: #060606;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease; 
+         }
+
+        .buy-now-button:hover {
+            background-color: #eb5e00; 
+        }
+        .hero {
+            background-color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .product {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            flex: 1 1 calc(33.333% - 40px);
+            box-sizing: border-box;
+        }
+        .product img {
+            max-width: 100%;
+            height: 50%;
+        }
+        .product h2 {
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+        td {
+        text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Stationery Store</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+           
+        <section id="home" class="hero">
+        <h1>Welcome to Our Stationery Store</h1>
+        <p>Your one-stop shop for all things stationary. From pens to notebooks, we've got you covered!</p>
+    </section>
+    
+    <marquee bgcolor="orange">Special 10% discount for students</marquee>
+
+    <section id="products">
+        <h2>Our Products</h2>
+         
+        <div class="products">
+            <div class="product">
+                <img src="c:\Users\aryan tandulkar\OneDrive\Desktop\Stationary store\Website\Product photo\Notebook.jpg" alt="Product 1">
+                <h2>Notebook</h2>
+                <p>High-quality notebook with a durable cover. Perfect for jotting down notes or writing stories.</p>
+                <p>₹160 <strike>₹200</strike></p><br>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="c:\Users\aryan tandulkar\OneDrive\Desktop\Stationary store\Website\Product photo\pen.jpg" alt="Product 2">
+                <h2>Pen</h2>
+                <p>Smooth-writing pen with a comfortable grip. Ideal for everyday use.</p>
+                <p>₹500 <strike>₹600</strike></p><br>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="c:\Users\aryan tandulkar\OneDrive\Desktop\Stationary store\Website\Product photo\Planner.jpg" alt="Product 3">
+                <h2>Planner</h2>
+                <p>Organize your schedule with our stylish planner. Includes weekly and monthly layouts.</p>
+                <p>₹50 <strike>₹70</strike></p><br>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="c:\Users\aryan tandulkar\OneDrive\Desktop\Stationary store\Website\Product photo\File and folder.jpg" alt="Product 4">
+                <h2>Files and folder</h2>
+                <p>Keep your documents organized and secure with our durable folders, available in a range of colors and styles.</p>
+                <p>₹200 <strike>₹250</strike></p><br>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="c:\Users\aryan tandulkar\OneDrive\Desktop\Stationary store\Website\Product photo\Calculator1.jpg" alt="Product 5">
+                <h2>Calculator</h2>
+                <p>Simplify your calculations with our user-friendly calculators, designed for everything from basic arithmetic to complex equations. Perfect for students, professionals, and anyone needing quick numerical solutions.</p>
+                <p>₹1200 <strike>₹1300</strike></p><br>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="c:\Users\aryan tandulkar\OneDrive\Desktop\Stationary store\Website\Product photo\stapler.jpg" alt="Product 6">
+                <h2>Stapler</h2>
+                <p>Effortlessly bind your documents together with our sturdy stapler, designed for smooth and reliable performance. Ideal for home, office, or school use, it ensures your papers stay organized and secure.</p> 
+                <p>₹50 <strike>₹70</strike></p><br>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="c:\Users\aryan tandulkar\OneDrive\Desktop\Stationary store\Website\Product photo\Tape dispensar.jpg" alt="Product 7">
+                <h2>Tape & Dispencer</h2>
+                <p> Keep your projects tidy with our versatile tape and dispenser set. Perfect for wrapping, repairing, or crafting, the dispenser provides easy access and smooth application for all your adhesive needs.                </p>
+                <p>₹80 <strike>₹100</strike></p><br>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="c:\Users\aryan tandulkar\OneDrive\Desktop\Stationary store\Website\Product photo\whiteboard.webp" alt="Product 8">
+                <h2>Whiteboard & pen</h2>
+                <p>Enhance your brainstorming and presentations with our sleek whiteboard, designed for easy writing and erasing. Comes with a dry-erase pen for clear, vibrant notes that can be wiped clean for endless use.</p>
+                <p>₹550 <strike>₹600</strike></p>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="c:\Users\aryan tandulkar\OneDrive\Desktop\Stationary store\Website\Product photo\Sticky-Notes.jpg" alt="Product 9">
+                <h2>Sticky notes</h2>
+                <p>Jot down quick reminders or messages on our colorful sticky notes, designed to stick and re-stick without leaving a mark.</p>
+                <p>₹50 <strike>₹70</strike></p><br>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+            
+    </div>
+    </section><br><br><br><br><hr>
+    <h2>Explore more</h2>
+    <table style="width:70%"  border="1px"
+           align="center"
+           >
+            
+        
+                  <tr text-align: center>
+                      <th>Product ID</th>
+                      <th>Product Name</th>
+                      <th>Category</th>
+                      <th>Price (₹)</th>                      
+                  </tr>
+              
+              
+                  <tr>
+                      <td>001</td>
+                      <td>Ballpoint Pen</td>
+                      <td>Writing Instruments</td>
+                      
+                      <td>150</td>
+                      <td><button class="buy-now-button">Buy Now</button></td> 
+                  </tr>
+                  <tr>
+                      <td>002</td>
+                      <td>Notebook</td>
+                      <td>Paper Products</td>
+                      
+                      <td>75</td>
+                      <td><button class="buy-now-button">Buy Now</button></td> 
+                  </tr>
+                 
+                      
+                  </tr> <tr>
+                      <td>003</td>
+                      <td>Stapler</td>
+                      <td>Office Equipment</td>
+                      <td>50</td>
+                      <td><button class="buy-now-button">Buy Now</button></td> 
+                  <tr>
+                      <td>004</td>
+                      <td>Highlighter</td>
+                      <td>Writing Instruments</td>
+                      <td>30</td>
+                      <td><button class="buy-now-button">Buy Now</button></td> 
+                      
+                  </tr>
+                  <tr>
+                      <td>005</td>
+                      <td>Paper Clips</td>
+                      <td>Office Supplies</td>
+                      <td>20</td>
+                      <td><button class="buy-now-button">Buy Now</button></td> 
+                      
+                  </tr>
+                  <tr>
+                    <td>006</td>
+                    <td>Sharpner</td>
+                    <td>Sharpning Instrunment</td>
+                    
+                    <td>15</td>
+                    <td><button class="buy-now-button">Buy Now</button></td> 
+                  </tr>
+                  <tr>
+                    <td>007</td>
+                    <td>Ereaser</td>
+                    <td>Ereasing Instrunment</td>
+                    
+                    <td>15</td>
+                    <td><button class="buy-now-button">Buy Now</button></td> 
+                </tr>     
+                <tr>
+                    <td>008</td>
+                    <td>Scale</td>
+                    <td>Drawing Instrunment</td>
+                    
+                    <td>10</td>
+                    <td><button class="buy-now-button">Buy Now</button></td> 
+                </tr>  
+                <tr>
+                    <td>009</td>
+                    <td>Graph Book</td>
+                    <td>Writing Instrunment</td>
+                    
+                    <td>50</td>
+                    <td><button class="buy-now-button">Buy Now</button></td> 
+                </tr>    
+                <tr>
+                    <td>010</td>
+                    <td>stickey Notes</td>
+                    <td>Office equipnment</td>
+                    
+                    <td>50</td>
+                    <td><button class="buy-now-button">Buy Now</button></td> 
+                </tr> <tr>
+                    <td>011</td>
+                    <td>White Board</td>
+                    <td>Writing Instrunment</td>
+                    
+                    <td>550</td>
+                    <td><button class="buy-now-button">Buy Now</button></td> 
+                </tr>   
+                <tr>
+                    <td>012</td>
+                    <td>Tape Dispenser</td>
+                    <td>Office Equipment</td>
+                    
+                    <td>80</td>
+                    <td><button class="buy-now-button">Buy Now</button></td> 
+                </tr>
+          </table>
+          <hr>
+
+    <section id="reviews">
+        <h2>Reviews</h2>
+        <div class="product">⭐️⭐️⭐️⭐️⭐️<br>
+            “I absolutely love this stationery store! The selection is amazing, from beautiful notebooks to unique pens. The staff is always so helpful and friendly. I found the perfect planner for the new year, and I can't wait to come back for more!” - <b>Swayam Sitafale</b></div>
+        
+        <div class="product">⭐️⭐️⭐️⭐️⭐️<br>
+                "I visited the store last week and was blown away by the selection of pens and notebooks. The ambiance is so inspiring! I left with a new planner and some gorgeous stickers. I also checked out their website, and it’s just as fantastic. Easy to navigate and so many options!" - <b>Rohan Shinde</b></div>        
+                
+        <div class="product">⭐️⭐️⭐️⭐️⭐️<br>
+            "This is my go-to stationery shop! The quality of their products is top-notch, and I love the personalized touches. I recently ordered some custom stationery online, and it turned out perfectly. I can’t wait to go back to the store for more goodies!" - <b>Ayush Rane</b>
+            </section><hr>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>your one-stop destination for all things stationery! We are passionate about providing high-quality products that inspire creativity and organization. Our goal is to make sure you have the best tools for your creative and organizational needs.</p>
+    </section><hr>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us at <a href="mailto:famousstatinaory.com">famousstatinaory.com</a>.<br></p>
+         ☎-9881541212<br>
+         <img src="c:\Users\aryan tandulkar\OneDrive\Desktop\Stationary store\Website\Product photo\gmail.png" alt="Gmail" width="2%" height="2%"><b>sanketlavhare@gmailcom</b>
+        <img src="c:\Users\aryan tandulkar\OneDrive\Desktop\Stationary store\Website\Product photo\Instagram logo.png" alt="Instagram" width="2%" height="2%"><b><a href="https://www.instagram.com/sanket_lavhare_01?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Sanket Lavhare</a></b>
+    </section><hr>
+
+</div>
+
+<br><br><br><br>
+
+<footer>
+    <p>&copy; 2024 Stationery Store. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
